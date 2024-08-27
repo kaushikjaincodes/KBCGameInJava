@@ -62,8 +62,8 @@ class Gui {
         frame.add(next);
         frame.add(result);
         frame.setVisible(true);
-
-        Connection c = DriverManager.getConnection("jdbc:mysql://@localhost:3306/KBC","root","Kaushik123jain@");
+        
+        Connection c = DriverManager.getConnection("jdbc:mysql://@localhost:3306/KBC","root","Password");
         if(c==null) {
             System.out.println("Connection refused");
         }else {
